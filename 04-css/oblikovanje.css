@@ -61,4 +61,13 @@ div {
 .slika img {
     width: 100%;
     height: auto;
+    border-radius: 40%;
+}
+
+.slika p:last-child {
+
+}
+
+a::before {
+    content: '🔗';
 }
