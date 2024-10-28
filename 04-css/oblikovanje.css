@@ -48,3 +48,17 @@ h2 {
 div {
     border: solid #cc0000 
 }
+
+.slika {
+    border: #cc0000;
+    font-size: 0.9 em;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin-left: 2em;
+}
+
+.slika img {
+    width: 100%;
+    height: auto;
+}
