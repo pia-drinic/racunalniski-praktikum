@@ -1,6 +1,6 @@
-PWD c:\Users\pd00327\RP\racunalniski-praktikum\05-latex\urnik
+PWD c:\Users\pd00327\RP\racunalniski-praktikum\05-latex\latex-pregled\urnik
 INPUT C:\Users\pd00327\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\pd00327\RP\racunalniski-praktikum\05-latex\urnik\urnik.tex
+INPUT c:\Users\pd00327\RP\racunalniski-praktikum\05-latex\latex-pregled\urnik\urnik.tex
 OUTPUT urnik.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
