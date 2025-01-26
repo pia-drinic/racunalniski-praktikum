@@ -1,31 +1,31 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.11)  11 NOV 2024 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.26)  26 JAN 2025 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/pd00327/RP/racunalniski-praktikum/05-latex/test/test.tex
-(c:/Users/pd00327/RP/racunalniski-praktikum/05-latex/test/test.tex
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-05-27>
-(C:\Program Files\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+**"c:/Users/HP/OneDrive - Univerza v Ljubljani/racunalniski-praktikum/05-latex/test/test.tex"
+(c:/Users/HP/OneDrive - Univerza v Ljubljani/racunalniski-praktikum/05-latex/test/test.tex
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
+(C:\Users\HP\OneDrive - Univerza v Ljubljani\rphome\tex/latex/base\article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\HP\OneDrive - Univerza v Ljubljani\rphome\tex/latex/base\size10.clo
+File: size10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count194
-\c@section=\count195
-\c@subsection=\count196
-\c@subsubsection=\count197
-\c@paragraph=\count198
-\c@subparagraph=\count199
-\c@figure=\count266
-\c@table=\count267
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\HP\OneDrive - Univerza v Ljubljani\rphome\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count268
+\l__color_backend_stack_int=\count270
 \l__pdf_internal_box=\box52
 ) (test.aux)
 \openout1 = `test.aux'.
@@ -52,21 +52,21 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-{C:/Users/pd00327/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (test.aux)
+{C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (test.aux)
  ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-05-27>
+LaTeX2e <2024-11-01>
+L3 programming layer <2024-11-02>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 441 strings out of 473904
- 8586 string characters out of 5736408
- 1926908 words of memory out of 5000000
- 23386 multiletter control sequences out of 15000+600000
+ 449 strings out of 473682
+ 9047 string characters out of 5716353
+ 393868 words of memory out of 5000000
+ 23610 multiletter control sequences out of 15000+600000
  559587 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,5n,50p,200b,109s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+ 35i,5n,50p,226b,109s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/amsfonts/cm/cmr7.pfb>
 Output written on test.pdf (1 page, 57619 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
