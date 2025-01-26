@@ -1,0 +1,137 @@
+\documentclass[a4paper]{article}
+% documentclass je ukaz
+% document je okolje
+
+% Nekateri ukazi in okolja sprejmejo tudi dodatne argumente, ki
+% so lahko obvezni: {argument} ali neobvezni: [argument].
+
+
+% Vključite pakete za podporo slovenščini,
+% prepoznavo vhodnega kodiranja `utf8` in izhodnega kodiranja `T1`.
+% Paket amsmath za vsak slučaj, če bi te inline enačbe zajebavale.
+% Paket vključimo z ukazom \usepackage[options]{package}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[slovene]{babel}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{amsmath}
+
+% preambula = vse, kar je med documentclass in begin{document}; do tu
+
+\begin{document} % Začetek okolja document, paired with: \end{document}, 
+% ki je konec okolja document.
+
+\title{Vaja \LaTeX a}
+\author{zmrda}
+\date{26.\ 01.\ 2025}
+\maketitle 
+
+% Da se bo glava dokumenta s temi podatki prikazala, morate 
+% uporabiti ukaz `\maketitle`.
+
+
+% Nov razdelek:
+\section{Ukazi in okolja}
+
+Okolja: abstract, verbatim, itemize, enumerate. 
+% Za enumerate sta v HTML znački ul in ol.
+Okolja za matematični način: math (za vrstičnega) in displaymath 
+[za prikaznega]. 
+
+
+\subsection{Enačbe v vrstičnem in prikaznem načinu}
+% VRSTIČNI NAČIN:  Matematični \( izraz sredi \) vrstice.
+\subsubsection{Vrstični način:}
+Iskanje ničel kvadratne enačbe: \(x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}\)
+
+
+% PRIKAZNI NAČIN:  \[ diva oz. matematični izraz v svoji vrstici \]
+\subsubsection{prikazni način:}
+\begin{center}
+   \[k_1\cdot u_1+k_2\]
+   \[k_1 \cdot u_1 + k_2 \cdot u_2 + \ldots + k_{n-1} \cdot u_{n-1} + k_n \cdot u_n\]
+
+\end{center}% \[ \]
+
+
+
+\subsection{Formule idr. uporabni ukazi za zapisovanje enačb}
+% Ukaz frac za ulomek, ki sprejme 2 argumenta --> {}{}:
+\begin{raggedright}
+Ulomek: 
+$\frac{22}{7}$ \\
+\end{raggedright}
+% NE POZABI NA DOLARČKE, KER DOBIŠ DRUGAČE ERROR! (KER JE ENAČBA)
+% Dolarčki namreč pomenijo matematično okolje, matematični ukazi delujejo 
+% samo znotraj teh: frac, int, ukazi za matrike itd.
+
+Matrika:
+\[
+\begin{pmatrix}
+a & b \\
+c & d
+\end{pmatrix}
+\]
+%
+%
+If you want to use different types of brackets, you can replace pmatrix \\
+with one of the following:
+\begin{itemize}
+    \item matrix for no brackets
+    \item bmatrix for square brackets
+    \item vmatrix for vertical bars
+    \item Bmatrix for curly braces
+\end{itemize} 
+%
+Integral: \\
+a simple integral: $\int_a^b f(x) \, dx$ \\
+a double integral: $ \iint_D f(x, y) \, dx \, dy$
+
+% Ukaz rule za ločnice, ki nariše pravokotnik (sprejme dva obvezna 
+% argumenta in enega neobveznega). [višina]{dolžina}{širina}:
+%$$\rule{20}{5}$$
+
+
+\subsection{Okolja}
+Itemize:
+\begin{itemize}
+    \item item1
+    \item item2
+    \item item3
+\end{itemize}
+% <-- procentek zato, da se Enumerate ne zamakne
+Enumerate:
+\begin{enumerate}
+    \item enumerateditem1
+    \item enumerateditem2
+    \item enumerateditem3
+\end{enumerate}
+
+
+
+
+
+\section{Zgradba dokumenta = razdelek oz. section}
+\subsection{Podrazdelek oz. subsection}
+\subsubsection{Podpodrazdelek oz. subsubsection}
+
+Line break: double backslash. \\
+New line.
+
+
+New paragraph: leave an empty row above. \\
+\begin {raggedright}
+\\ Paragraph break: double backslash twice.
+\end{raggedright}
+
+% raggedright, da se razreši opozorilo "Underfull \hbox (badness 10000)"
+
+
+
+
+
+
+
+
+\end{document}
