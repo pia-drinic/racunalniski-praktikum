@@ -16,6 +16,7 @@
 \usepackage{lmodern}
 \usepackage{hyperref}
 \usepackage{amsmath}
+\usepackage{ulem}
 
 % preambula = vse, kar je med documentclass in begin{document}; do tu
 
@@ -29,6 +30,12 @@
 
 % Da se bo glava dokumenta s temi podatki prikazala, morate 
 % uporabiti ukaz `\maketitle`.
+
+% Odstavek za UVOD: 
+\begin{abstract}
+    Tu napišeš uvod v svoj dokument, v okolje abstract.
+\end{abstract}
+
 
 
 % Nov razdelek:
@@ -87,10 +94,18 @@ with one of the following:
 Integral: \\
 a simple integral: $\int_a^b f(x) \, dx$ \\
 a double integral: $ \iint_D f(x, y) \, dx \, dy$
-
+%
 % Ukaz rule za ločnice, ki nariše pravokotnik (sprejme dva obvezna 
 % argumenta in enega neobveznega). [višina]{dolžina}{širina}:
 %$$\rule{20}{5}$$
+
+\noindent Odvod: 
+% Prvi odvod \( f(x) \) with respect to \( x \) is given by:
+\[ \frac{df}{dx} \] 
+% Drugi odvod \( f(x) \) with respect to \( x \) is given by:
+\[ \frac{d^2f}{dx^2} \] 
+% Parcialni odvod \( f(x, y) \) with respect to \( x \) is given by:
+\[ \frac{\partial f}{\partial x} \]
 
 
 \subsection{Okolja}
@@ -108,9 +123,9 @@ Enumerate:
     \item enumerateditem3
 \end{enumerate}
 
-
-
-
+%       %       %       %       %       %       %       %       %       %
+    %       %       %       %       %       %       %       %       % 
+%       %       %       %       %       %       %       %       %       %
 
 \section{Zgradba dokumenta = razdelek oz. section}
 \subsection{Podrazdelek oz. subsection}
@@ -127,10 +142,19 @@ New paragraph: leave an empty row above. \\
 
 % raggedright, da se razreši opozorilo "Underfull \hbox (badness 10000)"
 
-
-
-
-
+\subsection{Pisave in podobno}
+% italic text:
+\emph{italic --> emph} \\ 
+% bold text:
+\textbf{bold --> textbf} \\ 
+% underelined text:
+\underline{underlined --> underline} \\ 
+% strikethrough text:
+\sout{strikethrough --> sout + install ulem package!} \\ 
+% small text; up and down:
+$\text{text}_{down}^{up}$ \\
+$\text{text}_{down}$ \\ 
+$\text{text}^{up}$ \\ 
 
 
 
