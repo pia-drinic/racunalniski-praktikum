@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.26)  27 JAN 2025 00:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.1.26)  27 JAN 2025 21:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -332,11 +332,11 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 [3]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 266.
+(Font)              <10> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 266.
+(Font)              <7> on input line 262.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 266.
+(Font)              <5> on input line 262.
 
 
 [4{C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/enc/dvips/lm/lm-mathsy.enc}]
@@ -358,15 +358,15 @@ Package rerunfilecheck Info: File `urnik.out' has not changed.
 (rerunfilecheck)             Checksum: 4B448C14842E78AEA7E8F74D62630451;1917.
  ) 
 Here is how much of TeX's memory you used:
- 9919 strings out of 473682
- 159534 string characters out of 5716353
+ 9922 strings out of 473682
+ 159568 string characters out of 5716353
  565021 words of memory out of 5000000
- 32835 multiletter control sequences out of 15000+600000
- 618550 words of font info for 70 fonts, out of 8000000 for 9000
+ 32837 multiletter control sequences out of 15000+600000
+ 627086 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,349b,606s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmbx10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmbx12.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmbx9.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmmi10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmmi7.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmr10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmr12.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmr17.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmr7.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmr9.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmri10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmsy10.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmsy7.pfb><C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/type1/public/lm/lmtt10.pfb>
-Output written on urnik.pdf (9 pages, 313333 bytes).
+Output written on urnik.pdf (9 pages, 314291 bytes).
 PDF statistics:
  202 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)

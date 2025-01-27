@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1737932453.05521 "c:/Users/HP/OneDrive - Univerza v Ljubljani/racunalniski-praktikum/05-latex/latex-pregled/urnik/urnik.tex" "urnik.pdf" "urnik" 1737932453.79227 0
+["pdflatex"] 1738009009.0221 "c:/Users/HP/OneDrive - Univerza v Ljubljani/racunalniski-praktikum/05-latex/latex-pregled/urnik/urnik.tex" "urnik.pdf" "urnik" 1738009009.73856 0
   "C:/Users/HP/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1737923819 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/HP/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1737909764 11989776 2d352292bf2f481efd73ae465a6f41f2 ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -18,6 +18,7 @@
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/ec-lmr7.tfm" 1256929440 12064 09aa3eeac96bf141d673bb1b0385ce55 ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/ec-lmr9.tfm" 1256929440 12084 b7f5e4c003de6f57f07c7e9fee73a37c ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/ec-lmri10.tfm" 1256929440 17148 9556e1b5f936b77a796f68d2d559ba99 ""
+  "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/ec-lmri7.tfm" 1256929440 17168 78a37e395d0470967cfda94332b0716a ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/ec-lmtt10.tfm" 1256929440 1372 2ef2c2b492b3c4cd7879fe083abbb061 ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/lmex10.tfm" 1256929440 992 ce925c9346c7613270a79afbee98c070 ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/fonts/tfm/public/lm/lmmi10.tfm" 1256929440 1528 6d36b2385e0ca062a654de6ac59cb34f ""
@@ -105,10 +106,10 @@
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/HP/OneDrive - Univerza v Ljubljani/rphome/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/HP/OneDrive - Univerza v Ljubljani/racunalniski-praktikum/05-latex/latex-pregled/urnik/urnik.tex" 1737932451 30430 704ae036ed144ba33645cabc621567ee ""
-  "urnik.aux" 1737932453 1936 452c663df6f2f800c256f1840bab4ac7 "pdflatex"
-  "urnik.out" 1737932453 1917 4b448c14842e78aea7e8f74d62630451 "pdflatex"
-  "urnik.tex" 1737932451 30430 704ae036ed144ba33645cabc621567ee ""
+  "c:/Users/HP/OneDrive - Univerza v Ljubljani/racunalniski-praktikum/05-latex/latex-pregled/urnik/urnik.tex" 1738009008 30648 c668823e10970941ae9a86ad40d8d0af ""
+  "urnik.aux" 1738009009 1936 452c663df6f2f800c256f1840bab4ac7 "pdflatex"
+  "urnik.out" 1738009009 1917 4b448c14842e78aea7e8f74d62630451 "pdflatex"
+  "urnik.tex" 1738009008 30648 c668823e10970941ae9a86ad40d8d0af ""
   (generated)
   "urnik.aux"
   "urnik.log"
