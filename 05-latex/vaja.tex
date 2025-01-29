@@ -9,6 +9,7 @@
 % Vključite pakete za podporo slovenščini,
 % prepoznavo vhodnega kodiranja `utf8` in izhodnega kodiranja `T1`.
 % Paket amsmath za vsak slučaj, če bi te inline enačbe zajebavale.
+% amsthm vključiš, če potrebuješ AMS okolje (environment)
 % Paket vključimo z ukazom \usepackage[options]{package}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -17,8 +18,20 @@
 \usepackage{hyperref}
 \usepackage{amsmath}
 \usepackage{ulem}
+\usepackage{amsthm}
 
-% preambula = vse, kar je med documentclass in begin{document}; do tu
+
+\fontsize{12}{14}\selectfont
+% velikost pisave
+
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\lin}{Lin}
+
+\newcommand{\pip}{flippity floppity you're now my property}
+% \newcommand{\greet}[1]{Hello, #1!}
+% then when you use \greet{Alice}, it will output "Hello, Alice!"
+
+% PREAMBULA = vse, kar je med documentclass in begin{document}; do tu
 
 \begin{document} % Začetek okolja document, paired with: \end{document}, 
 % ki je konec okolja document.
@@ -35,6 +48,15 @@
 \begin{abstract}
     Tu napišeš uvod v svoj dokument, v okolje abstract.
 \end{abstract}
+\newpage
+
+\tableofcontents
+\pagebreak
+
+\newtheorem{definition}{Definicija}
+\begin{definition}
+    Tukaj napišeš definicijo.
+\end{definition}
 
 
 
@@ -72,6 +94,17 @@ $\frac{22}{7}$ \\
 % NE POZABI NA DOLARČKE, KER DOBIŠ DRUGAČE ERROR! (KER JE ENAČBA)
 % Dolarčki namreč pomenijo matematično okolje, matematični ukazi delujejo 
 % samo znotraj teh: frac, int, ukazi za matrike itd.
+
+Konjunkcija, disjunkcija: 
+$\wedge, \vee$
+
+Presledki med besedami in izrazi:
+a\,b 
+a\;b 
+a\quad b
+a\qquad b
+
+
 
 Matrika:
 \[
@@ -155,6 +188,40 @@ New paragraph: leave an empty row above. \\
 $\text{text}_{down}^{up}$ \\
 $\text{text}_{down}$ \\ 
 $\text{text}^{up}$ \\ 
+
+\section{Literatura}
+% sklici: label, ref, eqref, pageref,
+% citati: cite, nocite, bibliographystyle, bibliography
+
+% This is a citation \cite{key}.
+
+\nocite{*} % Include all references
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+
+\section{Definiranje novih matematičnih operatorjev}
+Za DeclareMathOperator potrebuješ paket amsmath. Uporaba: v preambuli!
+% \DeclareMathOperator{\sgn}{sgn}
+% Tako ga uporabiš: 
+% \begin{document}
+% The sign function is denoted by \(\sgn(x)\).
+% \end{document}
+Z newcommand definiraš nove ukaze, z newtheorem pa nova okolja za 
+definicije in trditve -- v \textbf{PREAMBULI}!
+
+\[\emph{U} = \lin{\left\{ v \right\}}\]
+\pip
+
+
+% nova stran = \pagebreak ali \newpage
+
+\pagebreak
+% POVZETEK
+\begin{abstract}
+    Tule gre povzetek.
+\end{abstract}
 
 
 
